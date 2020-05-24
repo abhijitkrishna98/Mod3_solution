@@ -14,6 +14,7 @@ body {
   border-radius: 0;
   border: 0;
   padding-top: 20px;
+  padding-bottom: 20px;
 
 }
 
@@ -26,7 +27,7 @@ body {
   text-align: left;
   margin-left: 0;
   color: #557c3e;
-  font-size: 1.5em;
+  font-size: 2.5em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -92,7 +93,7 @@ div#chicken{
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 7vw; /* 1vw = 1% of viewport width */
   }
   
   #collapsable-nav a { /* Collapsed nav menu text */
