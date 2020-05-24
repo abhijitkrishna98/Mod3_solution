@@ -93,7 +93,7 @@ div#chicken{
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 7vw; /* 1vw = 1% of viewport width */
+    font-size: 8vw; /* 1vw = 1% of viewport width */
   }
   
   #collapsable-nav a { /* Collapsed nav menu text */
