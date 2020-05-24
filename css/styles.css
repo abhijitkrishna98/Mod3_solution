@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #34495E ;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #F5CBA7 ;
+  border-radius: 0;
+  border: 0;
+  padding-top: 20px;
+
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Food,LLC */
+  font-family: 'Lora', serif;
+  text-align: left;
+  margin-left: 0;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#collapsable-nav{
+  background-color: #7F8C8D;
+  
+}
+a{
+  color: #FDFEFE;
+
+}
+
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+#main-content{
+  text-align: center;
+  
+}
+#main-content #main-heading{
+  text-align: center;
+  vertical-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  
+}
+#centerize{
+  text-align: center;
+  font-weight: 500px;
+  font-size: 25px;
+
+}
+div#centerize {
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+div#chicken{
+  border: 2px solid #909497;
+  font-family: 'Chelsea Market', cursive;
+  background-color: #A2D9CE ;
+  color: #4A235A ;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 600;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
