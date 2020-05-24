@@ -39,8 +39,10 @@ body {
   text-decoration: none;
 }
 #collapsable-nav{
-  background-color: #7F8C8D;
-  
+  background-color: #7F8C8D;  
+}
+#collapsable-nav li{
+  font-size: 12px;
 }
 a{
   color: #FDFEFE;
